@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="icon" href="3534139.png" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+</head>
+<body>
+  <section class="hero is-fullheight is-link">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-4-desktop">
+            <div class="box">
+              <h1 class="title has-text-centered">Registrar-se</h1>
+
+              <form>
+                <div class="field">
+                  <label class="label">Nome</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Nome completo">
+                  </div>
+                </div>
+                
+                <div class="field">
+                  <label class="label">Usuário</label>
+                  <div class="control has-icons-left has-icons-right">
+                    <input class="input is-success" type="text" placeholder="Usuário" value="bulma">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                      <i class="fas fa-check"></i>
+                    </span>
+                  </div>
+                  <p class="help is-success">Esse nome de usuário está disponível</p>
+                </div>
+                
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control has-icons-left has-icons-right">
+                    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                      <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                  </div>
+                  <p class="help is-danger">Esse email é inválido</p>
+                </div>
+                
+                <div class="field">
+                  <label class="label">Fale mais sobre você</label>
+                  <div class="control">
+                    <textarea class="textarea"></textarea>
+                  </div>
+                </div>
+                
+                <div class="field">
+                  <div class="control">
+                    <label class="checkbox">
+                      <input type="checkbox">
+                      Eu concordo com os <a href="#">termos e condições</a>
+                    </label>
+                  </div>
+                </div>
+                
+                <div class="field is-grouped">
+                  <div class="control">
+                    <button class="button is-link" formaction="home.html">Enviar</button>
+                  </div>
+                  <div class="control">
+                    <button class="button is-link is-light">Cancelar</button>
+                  </div>
+                </div>
+              </form>
+
+              <p class="has-text-centered">
+                Já tem uma conta? <a href="index.html">Login</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
